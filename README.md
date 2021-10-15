@@ -20,7 +20,7 @@
   + **airpollution_meteor_mean**
     + 2005-2020 The average daily concentration of **ambient air pollution and meteorological factors data (National level)**
   + **airpollution_metor_byMetropolitanCity**
-    + 2005-2020 The average daily concentration of ambient air pollution and meteorological factors data in South Korea
+    + 2005-2020 The average daily concentration of ambient air pollution and meteorological factors data
     + divided by metropolitan cities (Seoul, Busan, Daegu, Dajeon, Gwangju, Incheon, Ulsan)
  
  
