@@ -13,10 +13,10 @@
 * Details
   + **airpollution_byregion**
     + 2005-2020 The average daily concentration of ambient air pollution data
-    + divided by si(city)-gun(county)-gu(district) (Administrative divisions of South Korea)
+    + divided by si-gun-gu (Administrative divisions of South Korea)
   + **airpollution_mean**
     + The average daily concentration of ambient air pollution data (National level)
-    + That is, not divided by si-gun-gu(district)
+    + That is, not divided by si-gun-gu
   + **airpollution_meteor_mean**
     + 2005-2020 The average daily concentration of ambient air pollution and meteorological factors data (National level)
   + **airpollution_metor_byMetropolitanCity**
