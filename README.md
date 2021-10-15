@@ -12,13 +12,13 @@
   + Population median
 * Details
   + **airpollution_byregion**
-    + 2005-2020 The average daily concentration of **ambient air pollution data**
-    + **divided by si(city)-gun(county)-gu(district) (Administrative divisions of South Korea)**
+    + 2005-2020 The average daily concentration of ambient air pollution data
+    + divided by si(city)-gun(county)-gu(district) (Administrative divisions of South Korea)
   + **airpollution_mean**
-    + The average daily concentration of **ambient air pollution data (National level)**
+    + The average daily concentration of ambient air pollution data (National level)
     + That is, not divided by si-gun-gu(district)
   + **airpollution_meteor_mean**
-    + 2005-2020 The average daily concentration of **ambient air pollution and meteorological factors data (National level)**
+    + 2005-2020 The average daily concentration of ambient air pollution and meteorological factors data (National level)
   + **airpollution_metor_byMetropolitanCity**
     + 2005-2020 The average daily concentration of ambient air pollution and meteorological factors data
     + divided by metropolitan cities (Seoul, Busan, Daegu, Dajeon, Gwangju, Incheon, Ulsan)
@@ -26,7 +26,7 @@
     + 2004-2022 Public holidays
     + dropped duplicated rows
     + There were cases where there were two rows with the same date due to overlapping two holidays(Essentially because of the lunar calendar)
-    + **e.g.** 2017-10-03 the National Foundation Day of Korea, Chuseok (It's based on lunar calender)
+    + e.g. 2017-10-03 the National Foundation Day of Korea, Chuseok (It's based on lunar calender)
    + **median population**
      + 2002-2035 Median population
      + Divided by age and sex, including total population
