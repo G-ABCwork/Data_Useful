@@ -4,7 +4,7 @@
 * .rds file: a file which stores a single R object(commonly used in R, use readr::read_rds())
 * Provided data
   + Ambient air pollution
-    + SO2, CO, O3, NO2, PM10, PM2.5
+    + SO2(ppm), CO(ppm), O3(ppm), NO2(ppm), PM10, PM2.5
     + PM2.5 has been measured since 2015
   + Meteorological factors
     + Average wind speed, Average relative humidity, Average precipitation, Average temperature, Temperature gap
