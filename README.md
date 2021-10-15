@@ -28,8 +28,8 @@
     + There were cases where there were two rows with the same date due to overlapping two holidays(Essentially because of the lunar calendar)
     + **e.g.** 2017-10-03 the National Foundation Day of Korea, Chuseok (It's based on lunar calender)
    + **median population**
-    + 2002-2035 Median population
-    + Divided by age and sex, including total population
+     + 2002-2035 Median population
+     + Divided by age and sex, including total population
  * **Data source**
    + Airkorea: https://www.airkorea.or.kr/web (Ambient air pollution)
    + Korea Meteorological Administration: https://data.kma.go.kr (Meteorological factors)
