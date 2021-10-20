@@ -9,7 +9,7 @@
   + Meteorological factors
     + Average wind speed, Average relative humidity, Average precipitation, Average temperature, Temperature gap
   + Korean holidays
-  + Population median
+  + Median population
 * Details
   + **airpollution_byregion**
     + 2005-2020 The average daily concentration of ambient air pollution data
