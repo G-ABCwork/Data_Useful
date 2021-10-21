@@ -9,7 +9,7 @@
   + Meteorological factors
     + Average wind speed, Average relative humidity, Average precipitation, Average temperature, Temperature gap
   + Korean holidays
-  + Population median
+  + Median population
 * Details
   + **airpollution_byregion**
     + 2005-2020 The average daily concentration of ambient air pollution data
@@ -34,4 +34,4 @@
    + Airkorea: https://www.airkorea.or.kr/web (Ambient air pollution)
    + Korea Meteorological Administration: https://data.kma.go.kr (Meteorological factors)
    + OPEN API from KASI: https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15012690 (Korea holidays)
-   + KOSIS: https://kosis.kr/ (Population median)
+   + KOSIS: https://kosis.kr/ (Median population)
