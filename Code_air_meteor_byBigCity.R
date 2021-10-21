@@ -119,6 +119,10 @@ byregion <- air2 %>%
     left_join(daily_precip2, by = c("Region", "Date")) %>% 
     left_join(daily_humid2, by = c("Region", "Date")) %>% 
     left_join(daily_wind2, by = c("Region", "Date")) %>% 
-    left_join(daily_temp2, by = c("Region", "Date"))
+    left_join(daily_temp2, by = c("Region", "Date")) %>% 
+    mutate(Region = dplyr::recode(Region, 
+                                  서울 = "Seoul", 부산 = "Busan", 대구 = "Daegu", 
+                                  인천 = "Incheon", # 인천 강화, 옹진 제외
+                                  광주 = "Gwangju", 대전 = "Daejeon", 울산 = "Ulsan"))
 # write_rds(byregion, "./after wrangling/airpollution_metor_byMetropolitanCity.rds")
 # write_csv(byregion, "./after wrangling/airpollution_metor_byMetropolitanCity.csv")
