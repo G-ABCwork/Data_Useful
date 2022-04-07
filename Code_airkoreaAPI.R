@@ -1,5 +1,6 @@
 # 0-1. R 환경변수에 일반 인증키 저장해놓기 ----------------------------------------------------
 # usethis::edit_r_environ() # DATAGOKR_TOKEN_airpollution 으로 저장 완료
+# 개인별로 일반 인증키 요청 필요!
 Sys.getenv('DATAGOKR_TOKEN_airpollution') # check
 
 # 0-2. Loading some packages ----------------------------------------------
