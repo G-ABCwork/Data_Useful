@@ -1,7 +1,13 @@
 # 유용한 데이터 제공
-- 우리나라 역학 연구에 자주 쓰일 수 있는 데이터 모음과 전처리를 수행한 R 코드를 제공합니다.
-- 아래에서 제공하는 Source에서 원자료를 내려받으면, R 코드는 재현한 코드가 됩니다.
-- 모든 파일은 .csv(인코딩: UTF-8), .rds(R 데이터 파일)로 제공됩니다.
+- 우리나라 역학 연구에 자주 쓰일 수 있는 데이터 모음과 랭글링을 수행한 R 코드를 제공합니다.
+
+- 아래 Source에서 원자료를 내려받으면 제공된 R 코드를 통해 전처리 재현(reproducible)이 가능합니다.
+  - **대기오염원**: [에어코리아](https://www.airkorea.or.kr/web)
+  - **기상요인**: [기상청 기상자료개방포털](https://data.kma.go.kr)
+  - **우리나라 휴일 정보**: [한국천문연구원 특일정보 OPEN API](https://www.data.go.kr/tcs/dss/selectApiDataDetailView.do?publicDataPk=15012690) (최신 자료가 필요하다면 OPEN API 활용 요청)
+  - **우리나라 중위인구**: [국가통계포털](https://kosis.kr/index/index.do)
+
+- 랭글링된 모든 파일은 .csv(인코딩: UTF-8), .rds(R 데이터 파일)로 제공됩니다.
   - .rds: 단일 R 객체를 저장하는 파일로 `readr::read_rds()`로 읽을 수 있습니다.
 
 ## 제공 데이터 모음
